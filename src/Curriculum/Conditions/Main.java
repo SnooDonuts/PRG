@@ -1,4 +1,4 @@
-package cv2;
+package Curriculum.Conditions;
 
 import java.util.Scanner;
 

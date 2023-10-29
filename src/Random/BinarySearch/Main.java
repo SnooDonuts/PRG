@@ -1,4 +1,4 @@
-package BinarySearch;
+package Random.BinarySearch;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

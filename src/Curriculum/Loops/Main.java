@@ -1,5 +1,4 @@
-package cv3;
-
+package Curriculum.Loops;
 import java.util.Scanner;
 
 public class Main {
