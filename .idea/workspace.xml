@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2bad492-7122-4247-91d3-4daeaf62a1cf" name="Changes" comment="Random FuniRandom">
-      <change afterPath="$PROJECT_DIR$/src/Tests/test3prepare/Main.java" afterDir="false" />
+    <list default="true" id="d2bad492-7122-4247-91d3-4daeaf62a1cf" name="Changes" comment="Test 3 příva bez bonusu není baterka :(">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Curriculum/FuniRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Random/BinarySearch/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Tests/Test2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curriculum/FuniRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Random/BinarySearch/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Test2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/test2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/test3prepare/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/test3prepare/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,9 @@
       <workItem from="1699602838540" duration="9000" />
       <workItem from="1699602858232" duration="995000" />
       <workItem from="1699605537705" duration="116000" />
-      <workItem from="1700415336651" duration="3785000" />
+      <workItem from="1700415336651" duration="4035000" />
+      <workItem from="1700423365224" duration="4187000" />
+      <workItem from="1700759811293" duration="3329000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -96,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699603841386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test 3 příva bez bonusu není baterka :(">
+      <option name="closed" value="true" />
+      <created>1700419368498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700419368498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,17 +123,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="Test cykly" />
     <MESSAGE value="Random FuniRandom" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random FuniRandom" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/test3prepare/Main.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Test 3 příva bez bonusu není baterka :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 3 příva bez bonusu není baterka :(" />
   </component>
 </project>

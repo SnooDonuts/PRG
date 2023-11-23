@@ -2,6 +2,7 @@ package Tests.test3prepare;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -92,7 +93,48 @@ public class Main {
         System.out.println("Hotovo\n" + Arrays.toString(arr));
     }
 
-    public static void b() {
 
+    public static void b() {
+        int[] pickedNumbers = new int[10];
+        int[] guesses = new int[5];
+        int count = 0;
+        for (int i = 0; i < pickedNumbers.length; i++) {
+            int r = (int) (Math.random() * 30+1);
+            pickedNumbers[i] = r;
+        }
+        for (int i = 0; i < guesses.length; i++) {
+              int r = (int) (Math.random() * 30+1);
+              guesses[i] = r;
+        }
+        Arrays.sort(pickedNumbers);
+        System.out.println("Picked: "+Arrays.toString(pickedNumbers));
+        System.out.println("Guesses: "+Arrays.toString(guesses));
+        for (int num : guesses) {
+             int l;
+             int r;
+             boolean finded = false;
+             if (num > pickedNumbers[pickedNumbers.length/2]) {
+                l = pickedNumbers.length/2;
+                r = pickedNumbers.length-1;
+             } else {
+                 l = 0;
+                 r = pickedNumbers.length/2;
+             }
+             while (l <= r) {
+                int mid = (l + r) / 2;
+                if (pickedNumbers[mid] == num) {
+                    System.out.print("\u001B[41m" + Integer.toString(num) + "\u001B[0m ");
+                    finded = true;
+                    count++;
+                    break;
+                } else if (pickedNumbers[mid] > num) {
+                    r = mid-1;
+                } else {
+                    l = mid+1;
+                }
+            }
+             if  (!finded){System.out.print(Integer.toString(num) + " ");}
+        }
+        System.out.println("\nSprávně uhádnu to:" + Integer.toString(count));
     }
 }
