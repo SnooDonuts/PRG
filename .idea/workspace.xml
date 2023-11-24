@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bad492-7122-4247-91d3-4daeaf62a1cf" name="Changes" comment="Test 3 příva bez bonusu není baterka :(">
+      <change afterPath="$PROJECT_DIR$/src/Tests/test3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Curriculum/FuniRandom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Random/BinarySearch/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Tests/Test2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Curriculum/FuniRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Random/BinarySearch/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Test2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/test2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/test3prepare/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/test3prepare/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +73,7 @@
       <workItem from="1700415336651" duration="4035000" />
       <workItem from="1700423365224" duration="4187000" />
       <workItem from="1700759811293" duration="3329000" />
+      <workItem from="1700812290312" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
